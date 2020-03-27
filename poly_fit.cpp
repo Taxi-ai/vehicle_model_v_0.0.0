@@ -13,7 +13,7 @@ double polyeval(Eigen::VectorXd coeffs, double x)
     return result;
 }
 
-//Fit a polynomial.
+//Fit a polynomial..
 Eigen::VectorXd polyfit(Eigen::VectorXd xvals, Eigen::VectorXd yvals, int order)
 {
     assert(xvals.size() == yvals.size());
